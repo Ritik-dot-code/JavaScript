@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #983167;
+    font-family: sans-serif;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 500px;
+    position: relative;
+}
+.inside{
+    border: 2px solid #968769;
+    border-radius: 10px;
+    background-color: #968769;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+#move{
+    border: none;
+    margin-top: 10px;
+    margin-left: 500px;
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #528963;
+}
